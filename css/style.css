@@ -1,0 +1,51 @@
+:root {
+    --body-bg-color: #121214;
+    --text-color: #E1E1E6;
+    --title-color: #04D361;
+    --form-color: #A8A8A8;
+    --bg-button-color: #8257e5;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+body {
+    background-color: var(--body-bg-color);
+}
+.background-color {
+    flex: 1;
+    background-color: var(--body-bg-color)
+}
+
+.background-img {
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+.background-img img {
+    width: 1175px;
+    height: 900px;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    object-position: 100%;
+  }
+
+#body-background-img {
+    width: 1175px;
+    height: 900px;
+    position: block;
+    object-fit: cover;
+    transform: scale(0.8);
+    object-position: 100%;
+}
+
+
+#logo {
+    width: 389px;
+    height: 94px;
+    position: absolute;
+    margin: 50px 30px;
+}
