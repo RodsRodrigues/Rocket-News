@@ -1,2 +1,3 @@
-#Rocket-News
-This is my project of rocket-news
+# Rocket-News
+
+- This is my project of rocket-news
